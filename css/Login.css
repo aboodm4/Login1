@@ -1,0 +1,230 @@
+/* Variabales */
+:root {
+ --main-color: brown;
+ --second-color: color: rgb(64, 36, 3);
+ --third-color: #eee;
+}
+/* End Variabales */
+/* start Global rules */
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 350px;
+    }
+}
+@media (min-width: 992px) {
+    .container {
+        width: 360px;
+    }
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 400px;
+    }
+}
+@media (max-width: 768px) {
+    .container {
+        width: 330px;
+    }
+}
+/* end Global rules */
+/* start components */
+
+/* End components */
+/* Start */
+body {
+    background-color: #3a1b1b;
+}
+.header {
+    position: relative;
+}
+.header .container {
+    height: 550px;
+    background-color: rgb(158, 74, 74);
+    margin-top: 60px;
+}
+/* Start Feet1 */
+.header .container .feet1  {
+    padding-top: 60px;
+}
+.header .container .feet1 h1 {
+    text-align: center;
+}
+.header .container .feet1 .logo i {
+    text-align: center;
+    display: block;
+    color: #005bb5;
+    font-size: xx-large;
+}
+/* End Feet1 */
+
+/* Start Feet2 */
+.header .container .feet2 {
+    position: relative;
+}
+.header .container .feet2 .email  {
+    margin-bottom: 25px;
+}
+.header .container .feet2 .email p {
+font-size: 20px;
+font-weight: 800;
+color: var(--third-color);
+margin: 0 0 10px;
+}
+.header .container .feet2 .email:hover p  {
+    color: var(--second-color);
+}
+.header .container .feet2 .email p span:first-child {
+    transition: 0.2s;
+}
+.header .container .feet2 .email p span:nth-child(2) {
+    transition: 0.4s;
+}
+.header .container .feet2 .email p span:nth-child(3) {
+    transition: 0.6s;
+}
+.header .container .feet2 .email p span:nth-child(4) {
+    transition: 0.7s;
+}
+.header .container .feet2 .email p span:last-child {
+    transition: 0.8s;
+} 
+.header .container .feet2 .email input {
+    width: 80%;
+    border-color:var(--third-color) ;
+}
+
+.header .container .feet2 .password {
+    margin-bottom: 25px;
+}
+.header .container .feet2 .password p {
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--third-color);
+    margin: 0 0 10px;
+}
+.header .container .feet2 .password:hover p  {
+    color: var(--second-color);
+}
+.header .container .feet2 .password p span:first-child {
+    transition: 0.2s;
+}
+.header .container .feet2 .password p span:nth-child(2) {
+    transition: 0.4s;
+}
+.header .container .feet2 .password p span:nth-child(3) {
+    transition: 0.6s;
+}
+.header .container .feet2 .password p span:nth-child(4) {
+    transition: 0.8s;
+}
+.header .container .feet2 .password p span:nth-child(5) {
+    transition: 1s;
+}
+.header .container .feet2 .password p span:nth-child(6) {
+    transition: 1.2s;
+}
+.header .container .feet2 .password p span:nth-child(7) {
+    transition: 1.4s;
+}
+.header .container .feet2 .password p span:last-child {
+    transition: 1.6s;
+} 
+.header .container .feet2 .password input {
+    width: 70%;
+    border-color: var(--third-color);
+}
+/* End Feet2 */
+
+/* Start Feet3 */
+.header .container .feet3 {
+    position: relative;
+}
+.header .container .feet3 button {
+    width: 370px;
+    height: 50px;
+    text-align: center;
+    font-size: 30px;
+    background-color: #ccc7c7;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+.header .container .feet3 button:hover {
+    background-color: #414141;
+    color: whitesmoke;
+}
+
+@media (min-width: 768px) {
+    .header .container .feet3 button {
+        width: 320px;
+    }
+}
+@media (min-width: 1000px) {
+    .header .container .feet3 button {
+        width: 330px;
+    }
+}
+@media (min-width: 1200px) {
+    .header .container .feet3 button {
+        width: 370px;
+    }
+}
+@media (max-width: 768px) {
+    .header .container .feet3 button  {
+        width: 300px;
+    }
+}
+.header .container .feet3 .new-account {
+    position: absolute;
+    left: 0;
+    bottom: -50px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rebeccapurple;
+    letter-spacing: -1px;
+}
+.header .container .feet3 .forget-password {
+    position: absolute;
+    right: 0;
+    bottom: -50px;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+    color: rebeccapurple;
+    letter-spacing: -1px;
+}
+/* End Feet3 */
+/* Start Footer */
+.header .container .footer {
+    position: relative;
+}
+.header .container .footer p {
+    font-size: 12px;
+    text-align: center;
+}
+.header .container .footer hr {
+    position: absolute;
+    right: -15px;
+    width: 358px;
+    display: block;
+    border-color: #00000063;
+}
+/* End Footer */
+/* End */
